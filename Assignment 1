@@ -1,0 +1,13 @@
+s=input()
+l=list(s)
+result=[]
+for i in l:
+      if i not in result:
+            result.append(i)
+for i in result:
+      print(i,end=' ') 
+
+
+Output: 
+123451424
+12345
